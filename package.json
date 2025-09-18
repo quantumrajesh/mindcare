@@ -1,5 +1,12 @@
 {
+  "scripts": {
+    "dev": "cd mental-health-system && npm run dev",
+    "build": "cd mental-health-system && npm run build",
+    "start": "cd mental-health-system && npm run start",
+    "lint": "cd mental-health-system && npm run lint"
+  },
   "dependencies": {
+    "dotenv": "^17.2.2",
     "lucide-react": "^0.544.0",
     "recharts": "^3.2.0"
   }
